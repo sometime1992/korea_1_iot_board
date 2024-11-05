@@ -1,0 +1,18 @@
+.progress {
+  width: 80%;
+  max-width: 600px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #e9c46a;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.progress-done {
+  height: 100%;
+  background-image: linear-gradient(to right, #2a9d8f, #f4a261);
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  transition: width 0.5s ease-in-out;
+}

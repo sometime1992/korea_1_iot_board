@@ -1,0 +1,25 @@
+.task-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.new-input {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid #dbe7e4;
+  border-radius: 15px;
+  font-size: 16px;
+  color: #3c6e71;
+  text-align: center;
+}
+
+.task-submit {
+  background-color: #f4a261;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
